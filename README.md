@@ -1,7 +1,4 @@
-# Part 1-Assignments
-
-This folder contains the solution for **Part 1** of the Computer Vision Project.  
-
+# Project Assignments
 
 ## Overview
 
