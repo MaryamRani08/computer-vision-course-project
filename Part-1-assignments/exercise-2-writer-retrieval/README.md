@@ -44,10 +44,7 @@ Implementation details:
 - A total of 100 training images are used for descriptor sampling
 - MiniBatch K-Means is used for clustering
 - The codebook contains 100 cluster centers
-- The generated codebook is saved as:
-
-```text
-mus.pkl.gz
+- The generated codebook is saved as: mus.pkl.gz 
 
 The shape of the codebook is:
 
