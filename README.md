@@ -21,4 +21,24 @@ Exercise 1 has been completed. It includes box detection from distance images an
 - Box dimension estimation
 
 
+### Done Exercise 2 - Writer Retrieval
+
+Exercise 2 has been completed. It includes writer identification and retrieval using local descriptors, VLAD encoding, normalization, and Exemplar SVM classification.
+
+**Completed tasks:**
+
+- Loaded training and test labels
+- Used pre-computed local descriptors
+- Generated visual codebook using MiniBatch K-Means
+- Created VLAD encodings for train and test data
+- Applied power normalization and L2 normalization
+- Evaluated results using Top-1 Accuracy and mAP
+- Improved performance using Exemplar SVM
+
+**Results:**
+
+| Method | Top-1 Accuracy | mAP |
+|---|---:|---:|
+| VLAD Encoding | 0.8225 | 0.6313 |
+| VLAD + Exemplar SVM | 0.8856 | 0.7529 |
 
