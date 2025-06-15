@@ -103,12 +103,13 @@ results/
 ├── leading1.jpg
 └── pursuit2.jpg
 
-Discussion
-Why is Selective Search needed if Felzenszwalb already gives segmentation?
+### Discussion
+
+# Why is Selective Search needed if Felzenszwalb already gives segmentation?
 
 Felzenszwalb produces only one segmentation of the image, which may miss objects at different scales. Selective Search improves this by merging regions using multiple cues such as color, texture, size, and fill, producing more flexible object candidates.
 
-How are proposal boxes filtered?
+# How are proposal boxes filtered?
 
 Proposal boxes are filtered based on duplicate boxes, minimum area, and unusual shape ratios. This helps remove noisy or unnecessary proposals and keeps stronger object candidates.
 
@@ -119,6 +120,6 @@ Keeping boxes with strong edge information
 Adjusting thresholds for different datasets
 Filtering based on objectness score
 
-How are rectangles obtained from merged regions?
+# How are rectangles obtained from merged regions?
 
 Selective Search merges regions of arbitrary shapes. Rectangular proposals are obtained by computing the bounding box around each region using the minimum and maximum x/y pixel coordinates.
