@@ -42,3 +42,17 @@ Exercise 2 has been completed. It includes writer identification and retrieval u
 | VLAD Encoding | 0.8225 | 0.6313 |
 | VLAD + Exemplar SVM | 0.8856 | 0.7529 |
 
+### Done Exercise 3 - Selective Search
+
+Exercise 3 has been completed. It includes object proposal generation using Selective Search with Felzenszwalb segmentation, similarity-based region merging, and bounding box proposal filtering.
+
+**Completed tasks:**
+
+- Generated initial image segmentations
+- Extracted regions and neighboring regions
+- Calculated color, texture, size, and fill similarities
+- Merged regions using hierarchical grouping
+- Generated rectangular object proposals
+- Filtered noisy, duplicate, small, and distorted boxes
+- Saved final result images with proposal boxes
+
