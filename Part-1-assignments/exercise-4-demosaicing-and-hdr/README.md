@@ -81,40 +81,8 @@ The output image is saved with high JPG quality.
 
 The following result images were generated during the exercise.
 
-### HDR Output
-
-![HDR Output](results/hdr_output.jpg)
-
 ### Task 8 Output
 
+![Task 8 Demosaiced Input](results/IMG_4782.CR3)
+
 ![Task 8 Demosaiced Output](results/demosaiced_image_task8.jpg)
-
-## Technologies Used
-
-- Python
-- NumPy
-- RawPy
-- OpenCV
-- Matplotlib
-- SciPy
-- Pillow
-
-## Folder Structure
-
-```text
-exercise-4-demosaicing-and-hdr/
-│
-├── code/
-│   ├── main.py
-│   └── utils.py
-│
-├── data/
-│   ├── raw_images/
-│   └── exposure_series/
-│
-├── results/
-│   ├── hdr_output.jpg
-│   └── demosaiced_image_task8.jpg
-│
-├── requirements.txt
-└── README.md
