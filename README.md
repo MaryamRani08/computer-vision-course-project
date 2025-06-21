@@ -56,3 +56,21 @@ Exercise 3 has been completed. It includes object proposal generation using Sele
 - Filtered noisy, duplicate, small, and distorted boxes
 - Saved final result images with proposal boxes
 
+---
+
+### Done Exercise 4 - Demosaicing and HDR
+
+Exercise 4 has been completed. It includes demosaicing raw Bayer images, applying gamma correction and white balance, verifying sensor linearity, generating HDR output, and saving the final processed JPG image.
+
+**Completed tasks:**
+
+- Bayer pattern investigation
+- Raw image demosaicing
+- Gamma correction
+- White balance
+- Sensor linearity verification
+- HDR image generation
+- Tone mapping
+- Final raw-to-JPG processing
+
+
