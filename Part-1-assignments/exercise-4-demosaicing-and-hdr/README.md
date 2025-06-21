@@ -83,6 +83,6 @@ The following result images were generated during the exercise.
 
 ### Task 8 Output
 
-![Task 8 Demosaiced Input](results/IMG_4782.CR3)
+![Task 8 Demosaiced Input](results/IMG_4782.jpg)
 
 ![Task 8 Demosaiced Output](results/demosaiced_image_task8.jpg)
