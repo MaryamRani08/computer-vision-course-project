@@ -39,6 +39,7 @@ class OpenSetEvaluation:
     # similarity thresholds.
     def run(self):
         # Train the Classifier with all training data 
+        
         self.classifier.fit(self.train_embeddings, self.train_labels)
 
         pred_labels, similarities = self.classifier.predict_labels_and_similarities(self.test_embeddings)
