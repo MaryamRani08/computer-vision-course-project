@@ -132,7 +132,7 @@ class FaceRecognizer:
 
         # calculate min distance to predicted class  
         class_idxs    = [idx for idx, bl in zip(knn_idx, base_labels) if bl == predicted_lables]
-        mini_dists      = dist[class_idxs].min()
+        mini_dists    = dist[class_idxs].min()
 
         # open‑set decision rule
         if mini_dists > self.max_distance or prob < self.min_prob: # Using both distance and posterior gives more robust results
