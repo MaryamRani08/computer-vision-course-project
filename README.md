@@ -73,4 +73,22 @@ Exercise 4 has been completed. It includes demosaicing raw Bayer images, applyin
 - Tone mapping
 - Final raw-to-JPG processing
 
+---
+
+### Done Exercise 5 - Face Recognition
+
+Exercise 5 has been completed for the main face recognition system. It includes face detection, tracking, alignment, face identification, open-set recognition, face clustering, re-identification, and DIR curve evaluation.
+
+**Completed tasks:**
+
+- Implemented face detection, tracking, and alignment
+- Extracted face embeddings using FaceNet
+- Built a labeled gallery for face identification
+- Implemented k-NN based face recognition
+- Added posterior probability and distance-based prediction
+- Added open-set recognition for unknown faces
+- Implemented face clustering using k-means
+- Added person re-identification using cluster centers
+- Implemented DIR curve evaluation
+
 
