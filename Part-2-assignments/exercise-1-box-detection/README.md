@@ -65,9 +65,8 @@ Instead of evaluating unlimited random hypotheses, a fixed number of hypotheses 
 
 Tested parameters:
 
-```text
 M = 500, 1000, 2000
-B = 50, 100, 200 ```
+B = 50, 100, 200 
 
 Where:
 M is the number of initial hypotheses
@@ -118,13 +117,4 @@ Runtime increases as M increases
 Very small B causes frequent pruning and sorting overhead
 Very large B may remove good hypotheses too early
 Intermediate B values provide a better balance between speed and accuracy
-
-
-If the PDF files are placed directly in the same folder as the README, use the report links shown above.
-If the PDFs are inside a reports/ folder, use these links instead:
-
-- [Exercise Sheet](reports/exercise-01.pdf)
-- [Implementation Report](reports/Exercise%201.pdf)
-- [Discussion Report](reports/Exercise%201%20-%20Discussion.pdf)
-
 
