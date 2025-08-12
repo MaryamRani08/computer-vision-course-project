@@ -78,7 +78,7 @@ Results and Reports
 
 The implementation results are currently included in the report PDFs.
 
-#####Discussion Report
+#### Discussion Report
 
 The reports include:
 
@@ -89,7 +89,7 @@ Preemptive RANSAC results
 Runtime and parameter comparison
 Discussion of advantages and disadvantages
 Key Observations
-MLESAC
+##### MLESAC
 
 MLESAC gives more stable results compared to standard RANSAC because it uses a continuous cost function.
 
@@ -106,7 +106,7 @@ Slightly slower than standard RANSAC
 Requires an additional penalty parameter
 Still depends on threshold selection
 Gives limited improvement when the data is already clean
-Preemptive RANSAC
+##### Preemptive RANSAC
 
 Preemptive RANSAC provides better control over runtime by using a fixed number of hypotheses.
 
