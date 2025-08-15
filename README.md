@@ -6,6 +6,8 @@ In this part, different image processing techniques are applied.The work include
 
 ## Progress
 
+---
+
 ### Done Exercise 1 - Box Detection
 
 Exercise 1 has been completed. It includes box detection from distance images and 3D point cloud data using RANSAC, morphological filtering, connected component analysis, and geometric dimension estimation.
@@ -20,6 +22,8 @@ Exercise 1 has been completed. It includes box detection from distance images an
 - Largest connected component extraction
 - Box dimension estimation
 
+
+---
 
 ### Done Exercise 2 - Writer Retrieval
 
@@ -41,6 +45,8 @@ Exercise 2 has been completed. It includes writer identification and retrieval u
 |---|---:|---:|
 | VLAD Encoding | 0.8225 | 0.6313 |
 | VLAD + Exemplar SVM | 0.8856 | 0.7529 |
+
+---
 
 ### Done Exercise 3 - Selective Search
 
@@ -91,4 +97,21 @@ Exercise 5 has been completed for the main face recognition system. It includes 
 - Added person re-identification using cluster centers
 - Implemented DIR curve evaluation
 
+---
+
+### Done Part 2 - Exercise 1: Advanced RANSAC for Box Detection
+
+Part 2 Exercise 1 has been completed. It extends the original box detection task by implementing and comparing advanced RANSAC-based methods for robust plane fitting and box dimension estimation.
+
+**Completed tasks:**
+
+- Extended the baseline RANSAC box detection pipeline
+- Implemented MLESAC for cost-based model selection
+- Tested MLESAC with different floor and box-top thresholds
+- Compared RANSAC and MLESAC results
+- Implemented Preemptive RANSAC with fixed computational budget
+- Tested different `M` and `B` parameter values
+- Compared runtime and accuracy trade-offs
+- Discussed advantages and disadvantages of MLESAC and Preemptive RANSAC
+- Added report PDFs for implementation results and discussion
 
