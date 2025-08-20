@@ -115,3 +115,23 @@ Part 2 Exercise 1 has been completed. It extends the original box detection task
 - Discussed advantages and disadvantages of MLESAC and Preemptive RANSAC
 - Added report PDFs for implementation results and discussion
 
+---
+
+---
+
+### Done Part 2 - Exercise 2: Writer Retrieval
+
+Part 2 Exercise 2 has been completed for tasks **e–g**. It extends the writer identification pipeline with custom SIFT feature extraction, Generalized Max Pooling, and Multi-VLAD with PCA whitening.
+
+**Completed tasks:**
+
+- Implemented SIFT feature extraction from images
+- Applied Hellinger normalization to SIFT descriptors
+- Integrated custom features using the `--from_images` option
+- Implemented Generalized Max Pooling using ridge regression
+- Tested GMP with `--gmp --gamma 1`
+- Built multiple VLAD codebooks using different runs
+- Applied PCA whitening on Multi-VLAD encodings
+- Compared Multi-VLAD, PCA, and E-SVM performance
+- Added implementation report PDF
+
