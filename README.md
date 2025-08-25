@@ -135,3 +135,20 @@ Part 2 Exercise 2 has been completed for tasks **e–g**. It extends the writer 
 - Compared Multi-VLAD, PCA, and E-SVM performance
 - Added implementation report PDF
 
+---
+
+### Done Part 2 - Exercise 3: Selective Search Detection Pipeline
+
+Part 2 Exercise 3 has been completed. It extends the Selective Search assignment by adding a simple object detection pipeline using generated region proposals, labeled samples, feature extraction, and SVM classification.
+
+**Completed tasks:**
+
+- Generated Selective Search region proposals
+- Saved proposal results in `balloon_proposals.json`
+- Labeled proposals using ground-truth annotations
+- Created positive and negative training samples
+- Extracted features from proposal regions
+- Trained an SVM classifier
+- Saved the trained model as `svm_model.joblib`
+- Added QnA/report PDF for the detection pipeline
+- Excluded large generated `features.json` file from GitHub because it exceeds the normal GitHub file size limit
