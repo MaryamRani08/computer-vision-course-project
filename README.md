@@ -152,3 +152,23 @@ Part 2 Exercise 3 has been completed. It extends the Selective Search assignment
 - Saved the trained model as `svm_model.joblib`
 - Added QnA/report PDF for the detection pipeline
 - Excluded large generated `features.json` file from GitHub because it exceeds the normal GitHub file size limit
+
+---
+
+### Done Part 2 - Exercise 4: Additional HDR from JPG Images
+
+Part 2 Exercise 4 has been completed for the additional HDR task. It extends the demosaicing and HDR assignment by generating HDR images from JPG exposure stacks instead of RAW sensor data.
+
+**Completed tasks:**
+
+- Loaded JPG exposure stack
+- Estimated the camera gamma/response curve
+- Linearized JPG images before HDR fusion
+- Scaled images using exposure times
+- Combined JPG images into an HDR image
+- Applied white balance in linear space
+- Applied logarithmic tone mapping
+- Saved the final HDR-from-JPG output
+
+**Note:** Tasks 1–8 are documented in **Part 1 - Exercise 4**. This section only covers the additional Task 9.
+
