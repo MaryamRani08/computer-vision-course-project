@@ -172,3 +172,19 @@ Part 2 Exercise 4 has been completed for the additional HDR task. It extends the
 
 **Note:** Tasks 1–8 are documented in **Part 1 - Exercise 4**. This section only covers the additional Task 9.
 
+---
+
+### Done Part 2 - Exercise 5: Face Recognition Challenge
+
+Part 2 Exercise 5 has been completed for the individual open-set face recognition challenge. It extends the main face recognition system with SPL and MPL training strategies for handling known classes, known unknown classes, and unknown identities.
+
+**Completed tasks:**
+
+- Implemented Single Pseudo Label training
+- Implemented Multi Pseudo Label training
+- Used `challenge_train_data.csv` for open-set recognition training
+- Handled known classes and unknown-class samples
+- Added open-set rejection logic for unknown identities
+- Added support for challenge evaluation through `test_osr_learning.py`
+- Prepared the implementation for hidden benchmark testing
+
